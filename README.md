@@ -9,3 +9,4 @@ Hexlet Frontend - Project No. 2
 ```npm i -g gendiff-glevanov```
 
 ## Preview
+[![asciicast](https://asciinema.org/a/ipr8UNiAUhEFoltbM0dQ1Kn3u.svg)](https://asciinema.org/a/ipr8UNiAUhEFoltbM0dQ1Kn3u)
