@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import commander from 'commander';
+import gendiff from '..';
 import { version, description } from '../../package.json';
 
 const program = commander;
@@ -7,6 +8,9 @@ const program = commander;
 program
   .version(`${version}`)
   .description(`${description}`)
-  .arguments('<firstConfig> <secondConfig>')
   .option('-f, --format [type]', 'Output format')
+  .arguments('<firstConfig> <secondConfig>')
+  .action((firstConfig, secondConfig) => {
+    console.log(gendiff(firstConfig, secondConfig, program.format));
+  })
   .parse(process.argv);
