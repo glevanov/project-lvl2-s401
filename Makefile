@@ -12,3 +12,6 @@ lint:
 
 update:
 	npm install -g gendiff-glevanov
+
+test:
+	npm test --watchAll

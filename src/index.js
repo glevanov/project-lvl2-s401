@@ -1,7 +1,7 @@
-const gendiff = (firstConfig, secondConfig, options) => {
+const gendiff = (firstConfig, secondConfig) => {
   console.log(firstConfig);
   console.log(secondConfig);
-  console.log(options);
+  return '';
 };
 
 export default gendiff;

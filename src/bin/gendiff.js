@@ -11,6 +11,7 @@ program
   .option('-f, --format [type]', 'Output format')
   .arguments('<firstConfig> <secondConfig>')
   .action((firstConfig, secondConfig) => {
-    console.log(gendiff(firstConfig, secondConfig, program.format));
-  })
-  .parse(process.argv);
+    console.log(gendiff(firstConfig, secondConfig));
+  });
+
+program.parse(process.argv);
