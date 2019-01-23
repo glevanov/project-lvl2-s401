@@ -1,5 +1,5 @@
-import gendiff from '../src';
 import fs from 'fs';
+import gendiff from '../src';
 
 const before = '__tests__/__fixtures__/before.json';
 const after = '__tests__/__fixtures__/after.json';

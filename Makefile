@@ -10,6 +10,9 @@ publish:
 lint:
 	npx eslint .
 
+fix:
+	npx eslint . --fix
+
 update:
 	npm install -g gendiff-glevanov
 
