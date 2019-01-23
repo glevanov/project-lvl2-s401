@@ -9,4 +9,8 @@ Hexlet Frontend - Project No. 2
 ```npm i -g gendiff-glevanov```
 
 ## Preview
+### Installation
 [![asciicast](https://asciinema.org/a/ipr8UNiAUhEFoltbM0dQ1Kn3u.svg)](https://asciinema.org/a/ipr8UNiAUhEFoltbM0dQ1Kn3u)
+
+### Compare flat JSON
+[![asciicast](https://asciinema.org/a/A9xHZgseHQj3tGbTwCLCiguXH.svg)](https://asciinema.org/a/A9xHZgseHQj3tGbTwCLCiguXH)

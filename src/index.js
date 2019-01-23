@@ -15,8 +15,8 @@ const gendiff = (firstConfig, secondConfig) => {
         return `    ${key}: ${firstFile[key]}`;
       }
       return `  + ${key}: ${secondFile[key]}`
-      + '\n'
-      + `  - ${key}: ${firstFile[key]}`;
+        + '\n'
+        + `  - ${key}: ${firstFile[key]}`;
     }
     if (_.has(firstFile, key) && !_.has(secondFile, key)) {
       return `  - ${key}: ${firstFile[key]}`;
