@@ -1,12 +1,9 @@
-import fs from 'fs';
 import _ from 'lodash';
+import parse from './parsers';
 
 const gendiff = (firstConfig, secondConfig) => {
-  const readJSON = filePath => JSON.parse(
-    fs.readFileSync(filePath, 'utf-8'),
-  );
-  const firstFile = readJSON(firstConfig);
-  const secondFile = readJSON(secondConfig);
+  const firstFile = parse(firstConfig);
+  const secondFile = parse(secondConfig);
   const keys = _.union(Object.keys(firstFile), Object.keys(secondFile));
 
   const result = keys.reduce((acc, key) => {
