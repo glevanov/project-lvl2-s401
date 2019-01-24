@@ -14,3 +14,6 @@ Hexlet Frontend - Project No. 2
 
 ### Compare flat JSON
 [![asciicast](https://asciinema.org/a/A9xHZgseHQj3tGbTwCLCiguXH.svg)](https://asciinema.org/a/A9xHZgseHQj3tGbTwCLCiguXH)
+
+### Compare flat Yaml
+[![asciicast](https://asciinema.org/a/XOn8uPv0cPKWKSkGmptyu4T4D.svg)](https://asciinema.org/a/XOn8uPv0cPKWKSkGmptyu4T4D)
